@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ausCATS Security Training</title>
+    <link rel="stylesheet" href="../static/css/foundation.css" />
+    <link rel="stylesheet" href="../static/css/foundation-icons.css" />
+    <script src="../static/js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../static/css/main.css" />
+  </head>
+
+    <body>
+    <!-- top navbar -->
+    <nav class="top-bar" data-topbar role="navigation">
+	<ul class="title-area">
+	    <li class="name">
+		<h1><a href="/">AusCERT Security Training</a></h1>
+	    </li>
+	    <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+	</ul>
+
+	<section class="top-bar-section">
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+		<li class="has-dropdown">
+		<a href="#">Welcome, {{ name }}</a>
+		    <ul class="dropdown">
+			<li><a href="/course">View Courses</a></li>
+			<li><a href="">Log Out Profile</a></li>
+		    </ul>
+		</li>
+	    </ul>
+	</section>
+    </nav>
+
+    <!-- side navbar -->
+
+    <!-- PAGE BODY -->
+    {% block content %}
+    {% endblock %}
+    
+    <script src="../static/js/vendor/jquery.js"></script>
+    <script src="../static/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

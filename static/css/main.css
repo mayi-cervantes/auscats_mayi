@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f0f0;
+    height: 100%;
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #555555 !important;
+    font-weight: bolder;
+}
+
+.red {
+    background-color: #e3798e !important;
+}
+
+.green {
+    background-color: #569f3f !important;
+}
+
+.yellow {
+    background-color: #f4e482 !important;
+}
+
+.panel {
+    background-color: #ffffff;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.pricing-table .title {
+    font-weight: bold;
+    padding: 0.3rem 1rem;
+}
+
+.pricing-table .price {
+    font-weight: bold;
+    color: #888888;
+    background-color: #ffffff;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.fi-pencil, .fi-torso, .fi-widget {
+    opacity: 0.7;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.progress {
+    background-color: #CCCCCC;
+}
+
+.progress p {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 0 0.5rem;
+}
+
+.profilepic img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.profile .button {
+    margin-bottom: 0 !important;
+}
+
+.profile .button .fi-pencil {
+    font-size: 1.2em;
+    padding-left: 0.5rem;
+}
